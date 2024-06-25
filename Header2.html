@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header2</title>
+    <style>
+      .header-search {
+        background-color: #333;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+
+      .nav li {
+        margin-right: 20px;
+      }
+
+      .nav a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .search-bar {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+      }
+
+      .search-bar input[type="search"] {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        width: 200px;
+      }
+
+      .search-bar button {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .logo {
+        font-size: 24px;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header-search">
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="search-bar">
+        <input type="search" placeholder="Search..." />
+        <button>Search</button>
+      </div>
+      <div class="logo">Logo</div>
+    </header>
+  </body>
+</html>

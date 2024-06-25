@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Footer3</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      footer {
+        background-color: #222;
+        color: #fff;
+        padding: 50px 0;
+        margin-bottom: 0;
+        text-align: center;
+      }
+      .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+      }
+      .col {
+        text-align: left;
+        width: 200px;
+        margin-bottom: 30px;
+      }
+      .col h4 {
+        color: #ff5722;
+        margin-bottom: 15px;
+      }
+      .col p {
+        margin-bottom: 10px;
+      }
+      .col ul {
+        list-style: none;
+        padding: 0;
+      }
+      .col li {
+        margin-bottom: 5px;
+      }
+      .col a {
+        color: #fff;
+        text-decoration: none;
+      }
+      .col a:hover {
+        text-decoration: underline;
+      }
+      .social {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .social a {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #fff;
+        color: #222;
+        text-align: center;
+        line-height: 30px;
+        margin: 0 5px;
+      }
+      .social a:hover {
+        background-color: #ff5722;
+        color: #fff;
+      }
+      @media (max-width: 768px) {
+        .container {
+          width: 90%;
+        }
+        .col {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <footer>
+      <div class="container">
+        <div class="col">
+          <h4>About Us</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
+            odio sed porta lacinia. Sed a turpis eu urna dignissim sollicitudin.
+          </p>
+          <ul>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">SEO</a></li>
+            <li><a href="#">Marketing</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>Contact Us</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <ul>
+            <li><a href="#">demo@example.com</a></li>
+            <li><a href="#">+123456789</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>Follow Us</h4>
+          <div class="social">
+            <a href="#" target="_blank"></a>
+            <a href="#" target="_blank"></a>
+            <a href="#" target="_blank"></a>
+            <a href="#" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
